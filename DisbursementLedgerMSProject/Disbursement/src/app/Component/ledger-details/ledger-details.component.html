@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+    
+    <div class="form-group col-md-6">
+        customerId:<input type="text" class="form-control"  placeholder=" customerId" [(ngModel)]="ledger.customerId">
+      </div>
+      <div class="form-group col-md-6">
+        caseNumber:  <input type="text" class="form-control"  placeholder="caseNumber" [(ngModel)]="ledger.caseNumber">
+      
+      </div>
+      <div class="form-group col-md-6">
+        loanMasterDetailsId:  <input type="text" class="form-control"  placeholder=" loanMasterDetailsId"  [(ngModel)]="ledger.loanMasterDetailsId">
+      </div>
+      <div class="form-group col-md-6">
+        totalAmount:  <input type="text" class="form-control"  placeholder="totalAmount" [(ngModel)]="ledger.totalAmount" >
+      </div>
+      <div class="form-group col-md-6">
+        tenure:  <input type="text" class="form-control"  placeholder="tenure" [(ngModel)]="ledger.tenure">
+      </div>
+      <div class="form-group col-md-6">
+        emi:  <input type="text" class="form-control"  placeholder="emi" [(ngModel)]="ledger.emi">
+      </div>
+      <div class="form-group col-md-6">
+        advanceEmi:  <input type="text" class="form-control"  placeholder="advanceEmi" [(ngModel)]="ledger.advanceEmi">
+      </div>
+      <div class="form-group col-md-6">
+        emiStartDate:  <input type="text" class="form-control"  placeholder=" emiStartDate" [(ngModel)]="ledger.emiStartDate">
+      </div>
+      <div class="form-group col-md-6">
+        emiEndDate:  <input type="text" class="form-control"  placeholder=" emiEndDate" [(ngModel)]="ledger.emiEndDate">
+      </div>
+      <div class="form-group col-md-6">
+        ledgercreatedDate:  <input type="text" class="form-control"  placeholder="ledgercreatedDate" [(ngModel)]="ledger.ledgercreatedDate">
+      </div>
+      <div class="form-group col-md-6">
+        ledgerDetailsEMIPaidAmount:  <input type="text" class="form-control"  placeholder="ledgerDetailsEMIPaidAmount">
+      </div>
+    </div>
+    
+     <div class="form-group"> 
+          <button class="btn btn-success btn-lg btn-block" (click)="ledgerdata()">Submit</button>
+      </div>
+    </div>
